@@ -51,19 +51,25 @@ build cmake_object_order_depends_target_Leetcode_2024: phony || CMakeFiles/Leetc
 
 build CMakeFiles/Leetcode_2024.dir/main_857.cpp.obj: CXX_COMPILER__Leetcode_2024_Debug C$:/project/C++/Leetcode_2024/main_857.cpp || cmake_object_order_depends_target_Leetcode_2024
   DEP_FILE = CMakeFiles\Leetcode_2024.dir\main_857.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++14
+  FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Leetcode_2024.dir
   OBJECT_FILE_DIR = CMakeFiles\Leetcode_2024.dir
 
 build CMakeFiles/Leetcode_2024.dir/main_1491.cpp.obj: CXX_COMPILER__Leetcode_2024_Debug C$:/project/C++/Leetcode_2024/main_1491.cpp || cmake_object_order_depends_target_Leetcode_2024
   DEP_FILE = CMakeFiles\Leetcode_2024.dir\main_1491.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++14
+  FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Leetcode_2024.dir
   OBJECT_FILE_DIR = CMakeFiles\Leetcode_2024.dir
 
 build CMakeFiles/Leetcode_2024.dir/main_1235.cpp.obj: CXX_COMPILER__Leetcode_2024_Debug C$:/project/C++/Leetcode_2024/main_1235.cpp || cmake_object_order_depends_target_Leetcode_2024
   DEP_FILE = CMakeFiles\Leetcode_2024.dir\main_1235.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++14
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Leetcode_2024.dir
+  OBJECT_FILE_DIR = CMakeFiles\Leetcode_2024.dir
+
+build CMakeFiles/Leetcode_2024.dir/main_1652.cpp.obj: CXX_COMPILER__Leetcode_2024_Debug C$:/project/C++/Leetcode_2024/main_1652.cpp || cmake_object_order_depends_target_Leetcode_2024
+  DEP_FILE = CMakeFiles\Leetcode_2024.dir\main_1652.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Leetcode_2024.dir
   OBJECT_FILE_DIR = CMakeFiles\Leetcode_2024.dir
 
@@ -75,7 +81,7 @@ build CMakeFiles/Leetcode_2024.dir/main_1235.cpp.obj: CXX_COMPILER__Leetcode_202
 #############################################
 # Link the executable Leetcode_2024.exe
 
-build Leetcode_2024.exe: CXX_EXECUTABLE_LINKER__Leetcode_2024_Debug CMakeFiles/Leetcode_2024.dir/main_857.cpp.obj CMakeFiles/Leetcode_2024.dir/main_1491.cpp.obj CMakeFiles/Leetcode_2024.dir/main_1235.cpp.obj
+build Leetcode_2024.exe: CXX_EXECUTABLE_LINKER__Leetcode_2024_Debug CMakeFiles/Leetcode_2024.dir/main_857.cpp.obj CMakeFiles/Leetcode_2024.dir/main_1491.cpp.obj CMakeFiles/Leetcode_2024.dir/main_1235.cpp.obj CMakeFiles/Leetcode_2024.dir/main_1652.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Leetcode_2024.dir
