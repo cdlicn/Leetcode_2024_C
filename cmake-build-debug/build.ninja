@@ -103,6 +103,12 @@ build CMakeFiles/Leetcode_2024.dir/main_2960.cpp.obj: CXX_COMPILER__Leetcode_202
   OBJECT_DIR = CMakeFiles\Leetcode_2024.dir
   OBJECT_FILE_DIR = CMakeFiles\Leetcode_2024.dir
 
+build CMakeFiles/Leetcode_2024.dir/main_2391.cpp.obj: CXX_COMPILER__Leetcode_2024_Debug C$:/project/C++/Leetcode_2024/main_2391.cpp || cmake_object_order_depends_target_Leetcode_2024
+  DEP_FILE = CMakeFiles\Leetcode_2024.dir\main_2391.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Leetcode_2024.dir
+  OBJECT_FILE_DIR = CMakeFiles\Leetcode_2024.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Leetcode_2024
@@ -111,7 +117,7 @@ build CMakeFiles/Leetcode_2024.dir/main_2960.cpp.obj: CXX_COMPILER__Leetcode_202
 #############################################
 # Link the executable Leetcode_2024.exe
 
-build Leetcode_2024.exe: CXX_EXECUTABLE_LINKER__Leetcode_2024_Debug CMakeFiles/Leetcode_2024.dir/main_857.cpp.obj CMakeFiles/Leetcode_2024.dir/main_1491.cpp.obj CMakeFiles/Leetcode_2024.dir/main_1235.cpp.obj CMakeFiles/Leetcode_2024.dir/main_1652.cpp.obj CMakeFiles/Leetcode_2024.dir/main_741.cpp.obj CMakeFiles/Leetcode_2024.dir/main_1463.cpp.obj CMakeFiles/Leetcode_2024.dir/main_2079.cpp.obj CMakeFiles/Leetcode_2024.dir/main_2105.cpp.obj CMakeFiles/Leetcode_2024.dir/main_2960.cpp.obj
+build Leetcode_2024.exe: CXX_EXECUTABLE_LINKER__Leetcode_2024_Debug CMakeFiles/Leetcode_2024.dir/main_857.cpp.obj CMakeFiles/Leetcode_2024.dir/main_1491.cpp.obj CMakeFiles/Leetcode_2024.dir/main_1235.cpp.obj CMakeFiles/Leetcode_2024.dir/main_1652.cpp.obj CMakeFiles/Leetcode_2024.dir/main_741.cpp.obj CMakeFiles/Leetcode_2024.dir/main_1463.cpp.obj CMakeFiles/Leetcode_2024.dir/main_2079.cpp.obj CMakeFiles/Leetcode_2024.dir/main_2105.cpp.obj CMakeFiles/Leetcode_2024.dir/main_2960.cpp.obj CMakeFiles/Leetcode_2024.dir/main_2391.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Leetcode_2024.dir
