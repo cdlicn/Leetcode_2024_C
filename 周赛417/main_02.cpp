@@ -5,7 +5,7 @@ using namespace std;
 bool isVowel(char ch) {
     return ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u';
 }
-//
+
 int countOfSubstrings(string word, int k) {
     unordered_map<char, int> cnt;
     int ks = 0;

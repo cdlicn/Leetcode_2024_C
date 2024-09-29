@@ -2,7 +2,6 @@
 
 using namespace std;
 
-//
 char kthCharacter(long long k, vector<int> &operations) {
     if (k == 1) {
         return 'a';

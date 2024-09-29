@@ -1,7 +1,7 @@
 #include "bits/stdc++.h"
 
 using namespace std;
-//
+
 char kthCharacter(int k) {
     string ss = "a";
     while (ss.size() < k) {
