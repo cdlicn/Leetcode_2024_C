@@ -6,16 +6,18 @@ bool isVowel(char ch) {
     return ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u';
 }
 
-int countOfSubstrings(string word, int k) {
+long long countOfSubstrings(string word, int k) {
     unordered_map<char, int> cnt;
     int ks = 0;
     int lef = 0, rig = 0;
     int n = word.size();
     int cs = 0;
-    int res = 0;
+    long long res = 0;
     for (char v: "aeiou") {
         cnt[v] = 0;
     }
+
+    int sum = 0;
     while (rig < n) {
         if (!isVowel(word[rig])) {
             ks++;
@@ -25,18 +27,12 @@ int countOfSubstrings(string word, int k) {
             }
             cnt[word[rig]]++;
         }
+        if (!isVowel(word[rig])) {
+            sum = 0;
+        }
         while (ks >= k && cs == 5) {
             if (ks == k) {
-                res++;
-                unordered_map<char, int> tmpCnt;
-                int idx = lef;
-                while (isVowel(word[idx]) && cnt[word[idx]] - tmpCnt[word[idx]] - 1 > 0) {
-                    cout << idx << endl;
-                    res++;
-                    idx++;
-                    tmpCnt[word[idx]]++;
-                }
-                break;
+                sum++;
             }
             if (!isVowel(word[lef])) {
                 ks--;
@@ -48,21 +44,8 @@ int countOfSubstrings(string word, int k) {
             }
             lef++;
         }
+        res += sum;
         rig++;
     }
     return res;
 }
-/*
-"aeioqq"
-1
-"aeiou"
-0
-"ieaouqqieaouqq"
-1
-"iqeaouqi"
-2
-"auaroiuerg"
- 3
-"ciefaouo"
-2
- */
