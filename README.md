@@ -14,3 +14,13 @@ int pow(int x, int n, int mod) {
     return res;
 }
 ```
+
+### priority_queue 自定义比较函数
+```c++
+struct cmp {
+    bool operator()(vector<int> &a, vector<int> &b) {
+        return a[0] > b[0];
+    }
+};
+priority_queue<vector<int>, vector<vector<int>>, cmp> q;
+```
