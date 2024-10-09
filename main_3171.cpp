@@ -2,6 +2,7 @@
 
 using namespace std;
 
+// TODO 3171. 找到按位或最接近 K 的子数组
 int minimumDifference(vector<int>& nums, int k) {
     int ans = INT_MAX;
     for (int i = 0; i < nums.size(); i++) {
