@@ -24,3 +24,17 @@ struct cmp {
 };
 priority_queue<vector<int>, vector<vector<int>>, cmp> q;
 ```
+
+### 并查集
+```c++
+vector<int> parent;
+int Find(int index) {
+    if (parent[index] != index) {
+        parent[index] = Find(parent, parent[index]);
+    }
+    return parent[index];
+}
+void Union(int index1, int index2) {
+    parent[Find(parent, index1)] = Find(parent, index2);
+}
+```
